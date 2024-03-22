@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+source 'https://rubygems.org'	
+gem 'activesupport', '~> 7.1'
 
-# Specify your gem's dependencies in time_difference.gemspec
-gemspec
+group :development do
+    gem 'rake'
+    gem 'rspec', '~> 3.7.0'
+    end
